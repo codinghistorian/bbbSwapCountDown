@@ -72,7 +72,7 @@ left: 50px;
 
 @media (max-width: 840px)  {
   h2 {
-  font-size: 50px;
+  font-size: 45px;
   font-family: 'Righteous', cursive;
   text-align: center;
   }
@@ -84,14 +84,14 @@ width: 100%;
 box-sizing: border-box;
 }
 span {
-font-size: 30px;
+font-size: 25px;
 position: relative;
 text-align: center;
 top: 90%;
 }
 .digits{
   display: flex;
-  font-size: 40px;
+  font-size: 35px;
 }
 .countdown div{
   width: 100px;
