@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+font-family: 'Ubuntu', sans-serif;
+}
+html {
+  background: url(bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+overflow: hidden;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 15vh;
+}
+
+.countdownBx{
+position: relative;
+display: flex;
+flex-direction: column;
+/* background-color: red; */
+justify-content: center;
+}
+
+h2 {
+font-size: 150px;
+font-family: 'Righteous', cursive;
+text-align: center;
+}
+span {
+font-size: 50px;
+position: relative;
+text-align: center;
+top: 41%;
+}
+
+.countdown{
+position: relative;
+display: flex;
+flex-direction: row;
+/* background-color: yellow; */
+top: 250px;
+justify-content: center;
+left: 50px;
+}
+
+.countdown div{
+  width: 200px;
+  text-align: center;
+
+}
+.digits{
+  display: flex;
+  font-size: 65px;
+}
+#day{}
+#hour{}
+#minute{}
+#second{}
+
+@media (max-width: 840px)  {
+  h2 {
+  font-size: 50px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  }
+  body {
+overflow: hidden;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+span {
+font-size: 30px;
+position: relative;
+text-align: center;
+top: 90%;
+}
+.digits{
+  display: flex;
+  font-size: 40px;
+}
+.countdown div{
+  width: 100px;
+  text-align: center;
+}
+.countdown{
+position: relative;
+display: flex;
+flex-direction: row;
+/* background-color: yellow; */
+top: 250px;
+justify-content: center;
+left: 20px;
+}
+}
